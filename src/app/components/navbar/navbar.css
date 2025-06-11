@@ -1,0 +1,16 @@
+nav {
+  transition: all 0.3s ease;
+}
+
+.scrolled {
+  background-color: #000 !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+

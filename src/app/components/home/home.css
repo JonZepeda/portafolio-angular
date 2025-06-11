@@ -1,0 +1,51 @@
+section {
+  scroll-margin-top: 80px;
+}
+
+section:first-of-type {
+  padding-top: 100px;
+}
+
+
+h2 {
+  color: #0d6efd;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+img {
+  max-width: 200px;
+  height: auto;
+  object-fit: cover;
+}
+
+.card {
+  border: 1px solid #dee2e6;
+}
+
+.card-title {
+  color: #0d6efd;
+}
+
+.btn-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #0d6efd;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  font-size: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  z-index: 999;
+  transition: opacity 0.3s ease;
+}
+
+.btn-to-top:hover {
+  background-color: #084298;
+}
